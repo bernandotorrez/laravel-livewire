@@ -21,8 +21,7 @@
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="/home/employee">Add Data</a>
-                            <a class="dropdown-item" href="/home/data">List Employee</a>
+                            <a class="dropdown-item" href="{{ url(route('karyawan.index')) }}">Add Data</a>
                         </div>
                     </li>
 
@@ -30,7 +29,7 @@
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome,
                             <!-- Catch data from the route -->
-                            tes
+                            Demo
                             <!-- why username? because in the home.js we pass username variable -->
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">

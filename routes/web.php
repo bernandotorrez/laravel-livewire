@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Pages\Home\HomeIndex;
 use App\Http\Livewire\Pages\About\AboutIndex;
+use App\Http\Livewire\Pages\Karyawan\KaryawanIndex;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +22,4 @@ use App\Http\Livewire\Pages\About\AboutIndex;
 Route::get('/', HomeIndex::class);
 Route::get('/home', HomeIndex::class)->name('home.index');
 Route::get('/about', AboutIndex::class)->name('about.index');
+Route::get('/karyawan', KaryawanIndex::class)->name('karyawan.index');  
